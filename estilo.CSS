@@ -1,0 +1,33 @@
+body{
+    background: url('./img/bg.pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vh;
+}
+.Salgadas{
+    font-family: 'Courier New';
+    font-size: 25px;
+    color: red;
+}
+.preço{
+    font-family: 'Courier New';
+    color: yellow;
+}
+.pizza{
+    font-family: 'Courier New';
+    color: red;
+    font-size: 25px;
+}
+.imagem{
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+    cursor: pointer;
+    border: 10px solid transparent;
+}
+.imagem:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    border: 10px solid rgb(230, 215, 12);
+    border-radius: 50%;
+}
